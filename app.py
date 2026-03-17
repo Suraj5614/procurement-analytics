@@ -32,7 +32,6 @@ def get_connection():
     database=st.secrets["snowflake"]["database"],
     schema=st.secrets["snowflake"]["schema"],
     role=st.secrets["snowflake"]["role"]
-)
     )
     return conn
 
